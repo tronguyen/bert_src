@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup_info = dict(
-    name='graph_embedding',
+    name='bert_src',
     version='1.0',
     url='https://github.com/tronguyen/bert_src.git',
     author='Trong Nguyen',
