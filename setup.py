@@ -1,11 +1,12 @@
 from setuptools import setup, find_packages
 
 setup_info = dict(
-    name='bertsrc',
+    name='bert_src',
     version='1.0',
-    url='https://github.com/tronguyen/bert_src.git',
+    url='https://github.com/tronguyen/bert_src',
     author='Trong Nguyen',
-    packages=find_packages(),
+    package_dir={"": "src"},
+    packages=find_packages("src"),
     install_requires=[
         "numpy",
         "tqdm >= 4.27",
